@@ -1,4 +1,4 @@
-MyPyQT5 ![](data/icons/logo.png)
+Monitor ![](data/icons/logo.png)
 ======= 
 ![](data/images/3.png)
 ### Venv:
