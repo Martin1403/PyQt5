@@ -1,24 +1,21 @@
 import sys
-import time, logging
-from datetime import datetime
-import threading, collections, queue, os, os.path
-import numpy as np
+import logging
+import collections
+import queue
 import pyaudio
 import wave
 import webrtcvad
 from halo import Halo
 from scipy import signal
-from scipy.io.wavfile import read, write
 import numpy as np
 import os
-import threading
-import time
 
 logging.basicConfig(level=20)
 
 
 class Audio(object):
-    """Streams raw audio from microphone. Data is received in a separate thread, and stored in a buffer, to be read from."""
+    """Streams raw audio from microphone. Data is received in
+    a separate thread, and stored in a buffer, to be read from."""
 
     FORMAT = pyaudio.paInt16
     # Network/VAD rate-space

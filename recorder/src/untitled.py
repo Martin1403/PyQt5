@@ -19,7 +19,7 @@ class Ui_MainWindow(object):
         self.verticalLayout.setSpacing(0)
         self.verticalLayout.setObjectName("verticalLayout")
         self.frame_main = QtWidgets.QFrame(self.centralwidget)
-        self.frame_main.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.frame_main.setStyleSheet("background-color: rgb(80, 80, 80);")
         self.frame_main.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.frame_main.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_main.setLineWidth(0)
