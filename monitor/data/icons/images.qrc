@@ -1,10 +1,6 @@
 <RCC>
   <qresource prefix="icons">
-    <file>docker_on.png</file>
     <file>minimize_on.png</file>
-    <file>docker_off.png</file>
-    <file>monitor_off.png</file>
-    <file>monitor_on.png</file>
     <file>maximize_on.png</file>
     <file>close_on.png</file>
     <file>minimize.png</file>

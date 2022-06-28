@@ -1,0 +1,15 @@
+PyQt5==5.12.2
+PyQt5-sip==12.10.1
+colorama==0.4.5
+halo==0.0.31
+joblib==1.1.0
+log-symbols==0.0.14
+numpy==1.23.0
+PyAudio==0.2.11
+scikit-learn==1.1.1
+scipy==1.8.1
+six==1.16.0
+spinners==0.0.24
+termcolor==1.1.0
+threadpoolctl==3.1.0
+webrtcvad==2.0.10
